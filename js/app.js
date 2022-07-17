@@ -3,11 +3,11 @@
  * app.js */
 
 const game = new Game();
-game.phrases.push(new Phrase("This is Prase one"));
-game.phrases.push(new Phrase("This is Prase two"));
-game.phrases.push(new Phrase("This is Prase three"));
-game.phrases.push(new Phrase("This is Prase four"));
-game.phrases.push(new Phrase("This is Prase five"));
+game.phrases.push(new Phrase("This is Phrase one"));
+game.phrases.push(new Phrase("This is Phrase two"));
+game.phrases.push(new Phrase("This is Phrase three"));
+game.phrases.push(new Phrase("This is Phrase four"));
+game.phrases.push(new Phrase("This is Phrase five"));
 
 
 

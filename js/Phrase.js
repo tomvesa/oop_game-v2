@@ -27,7 +27,9 @@ class Phrase{
     }
 
     checkLetter(letter){
+        console.log(this.phrase);
         return this.phrase.includes(letter);
+
     }
 
     showMatchedLetter(letter){
