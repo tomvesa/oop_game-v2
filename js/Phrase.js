@@ -27,8 +27,9 @@ class Phrase{
     }
 
     checkLetter(letter){
-        console.log(this.phrase);
-        return this.phrase.includes(letter);
+        //but do not include spacebar into the action
+        let phraseWithoutSpaces = this.phrase.replaceAll(" ", "");
+        return phraseWithoutSpaces.includes(letter);
 
     }
 

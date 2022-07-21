@@ -20,7 +20,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
@@ -125,6 +125,15 @@ button {
 
 /* Keyboard */
 
+.key {
+  box-shadow: 2px 3px 4px -2px;
+
+}
+
+.key:hover{
+  background-color: var(--color-start);
+}
+
 .keyrow {
   display: flex;
   justify-content: center;
@@ -135,11 +144,16 @@ button {
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
+  box-shadow: inset 2px;
 }
 
 .wrong {
   background: #f7a964;
   color: #FFFFFF;
+}
+.chosen:hover,
+.wrong:hover{
+  background-color: var(--color-neutral-light)
 }
 
 .btn__reset {
@@ -173,6 +187,7 @@ button {
   left: 0;
   right: 0;
   border-radius: 5px;
+  opacity: 1;
 }
 
 .title {
@@ -189,6 +204,8 @@ button {
 
 .win {
   background-color: var(--color-win);
+  display: flex;
+
 }
 
 .win a {
